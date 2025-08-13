@@ -25,3 +25,7 @@ Kubernetes Ingress and Gateway API configuration limits
 | Total rules | 200 per AGC |
 | Total services | 100 per AGC |
 | Total endpoints | 5000 per AGC |
+| Maximum total header size |	60 KB |
+
+>[!Note]
+>Limits for max URL length, max header key size, and max header value size are all governed by the total header size.
